@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Submit Prompt</title>
+<script>
+function submitForm(event) {
+    event.preventDefault(); // Prevent default form submission
+    const formData = new FormData(event.target);
+    const promptValue = formData.get('prompt'); // Get the value of the input named 'prompt'
+    const payload = {
+        prompt: promptValue
+    };
+
+    fetch('http://localhost:8000/new_loop', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload), // Convert the JavaScript object to a JSON string
+    })
+    .then(data => {
+        console.log('Success:', data);
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+}
+</script>
+</head>
+<body>
+
+<form onsubmit="submitForm(event)">
+    <label for="prompt">Prompt:</label>
+    <input type="text" id="prompt" name="prompt" required>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
+
