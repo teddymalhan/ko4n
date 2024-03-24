@@ -26,7 +26,7 @@ KOAN is an innovative application designed to help you maintain focus on your cu
 
 2. Install KOAN dependencies:
     ```
-    ~/.cargo/bin/uv pip install requests openai pillow termcolor pyautogui
+    uv pip install requests openai pillow termcolor pyautogui
     ```
 
 3. Run KOAN:
