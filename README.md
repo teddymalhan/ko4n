@@ -73,14 +73,6 @@ Contributions to KOAN are welcome! If you have ideas for improvements or encount
 
 KOAN is released under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for more details.
 
-### Support
-
-For support or inquiries, please contact the KOAN development team at [koan-support@example.com](mailto:koan-support@example.com).
-
-### Stay Connected
-
-Follow us on [Twitter](https://twitter.com/koanapp) for the latest updates and announcements.
-
 ---
 
 With KOAN, maintain focus, achieve your goals, and unlock your full potential. Start your journey to enhanced productivity today!
