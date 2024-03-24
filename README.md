@@ -31,7 +31,7 @@ KOAN is an innovative application designed to help you maintain focus on your cu
 
 3. Run KOAN:
     ```
-    python3 pipeline.py
+    python3 koan.py
     ```
 
 ### Getting Started
@@ -43,7 +43,7 @@ KOAN is an innovative application designed to help you maintain focus on your cu
 ### Example Usage
 
 ```
-$ python3 pipeline.py
+$ python3 koan.py
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @ █████               █████ █████            @
