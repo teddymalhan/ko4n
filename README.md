@@ -17,16 +17,9 @@ KOAN is an innovative application designed to help you maintain focus on your cu
 
 ### Installation (macOS Only)
 
-1. Install UV:
+1. Install KOAN dependencies:
     ```
-    curl -LsSf https://astral.sh/uv/install.sh | sh
-    uv venv
-    source .venv/bin/activate
-    ```
-
-2. Install KOAN dependencies:
-    ```
-    uv pip install requests openai pillow termcolor pyautogui
+    pip3 install requests openai pillow termcolor pyautogui
     ```
 
 3. Run KOAN:
