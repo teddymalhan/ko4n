@@ -7,6 +7,8 @@ import subprocess
 import pyautogui
 import platform
 
+OPENAI_API_KEY = ''
+
 class State:
     def __init__(self):
         self.focus_app = get_focused_app_name()
@@ -88,7 +90,7 @@ def analyze_image_with_text(client, image_url, prompt):
     return response.choices[0].message.content
 
 def run_loop(prompt):
-    client = OpenAI(api_key="")
+    client = OpenAI(api_key=OPENAI_API_KEY)
     try:
         while 1:
             screenshot_filename = take_screenshot()
