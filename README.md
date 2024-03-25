@@ -6,7 +6,6 @@ KOAN is an innovative application designed to help you maintain focus on your cu
 
 - **Task-Oriented Focus:** Specify your task, and KOAN will dynamically manage open applications and windows to align with your goal.
 - **Automatic Application Management:** KOAN intelligently closes irrelevant applications and windows, keeping only what's necessary for your current task.
-- **Customizable Settings:** Tailor KOAN to your preferences with customizable settings for task priorities and application preferences.
 - **Seamless Integration:** Easily integrate KOAN into your workflow with simple setup and minimal configuration requirements.
 
 ### New Perspectives
